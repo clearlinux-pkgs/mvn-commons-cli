@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-cli
 Version  : 1.0
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
 Source0  : https://repo1.maven.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
 Source1  : https://repo1.maven.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
@@ -35,29 +35,29 @@ data components for the mvn-commons-cli package.
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.0
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.0
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.0
+cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.0
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.0
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.0
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.0
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.0
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.2
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.2
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.2
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.2
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.2
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.2
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.2
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.2
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.3.1
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.3.1
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.3.1
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.3.1
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.3.1
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.3.1
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.3.1
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.3.1
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.4
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.4
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.4
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.4
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.4
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.4
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.4
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/commons-cli/commons-cli/1.4
 
 
 %files
@@ -65,11 +65,11 @@ cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/commons-cli/i/1.4
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/commons-cli/i/1.0/commons-cli-1.0.jar
-/usr/share/java/.m2/repository/commons-cli/i/1.0/commons-cli-1.0.pom
-/usr/share/java/.m2/repository/commons-cli/i/1.2/commons-cli-1.2.jar
-/usr/share/java/.m2/repository/commons-cli/i/1.2/commons-cli-1.2.pom
-/usr/share/java/.m2/repository/commons-cli/i/1.3.1/commons-cli-1.3.1.jar
-/usr/share/java/.m2/repository/commons-cli/i/1.3.1/commons-cli-1.3.1.pom
-/usr/share/java/.m2/repository/commons-cli/i/1.4/commons-cli-1.4.jar
-/usr/share/java/.m2/repository/commons-cli/i/1.4/commons-cli-1.4.pom
+/usr/share/java/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+/usr/share/java/.m2/repository/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
+/usr/share/java/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar
+/usr/share/java/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+/usr/share/java/.m2/repository/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar
+/usr/share/java/.m2/repository/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.pom
+/usr/share/java/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar
+/usr/share/java/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.pom
