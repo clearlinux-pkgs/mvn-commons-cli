@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-cli
 Version  : 1.0
-Release  : 2
+Release  : 3
 URL      : https://repo1.maven.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
 Source0  : https://repo1.maven.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
 Source1  : https://repo1.maven.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
